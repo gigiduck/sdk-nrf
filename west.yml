@@ -22,7 +22,7 @@ manifest:
       url-base: https://github.com/nrfconnect
     # Third-party repository sources:
     - name: zephyrproject
-      url-base: https://github.com/gigiduck
+      url-base: https://github.com/brgl
     - name: throwtheswitch
       url-base: https://github.com/ThrowTheSwitch
     - name: armmbed
@@ -51,9 +51,8 @@ manifest:
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/introduction/index.html
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/modules.html
     - name: zephyr
-      repo-path: sdk-zephyr
       remote: zephyrproject
-      revision: lvgl-v8.1.0-pr15
+      revision: brgl/lvgl_v8
       import:
         # In addition to the zephyr repository itself, NCS also
         # imports the contents of zephyr/west.yml at the above
